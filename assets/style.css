@@ -116,11 +116,36 @@ main h2::before{
   vertical-align: middle;
 }
 
+.label{
+  margin-left: 5px;
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+  border-radius: 15px;
+  vertical-align: bottom;
+}
 
+.label.blue{
+  background-color: #47adf1;
+}
 
+.label.purple{
+  background-color: #976be3;
+}
 
+.label.aqua{
+  background-color: #64c0a9;
+}
 
+.label.orange{
+  background-color: #f29e33;
+}
 
+.label.pink{
+  background-color: #D7609F;
+}
 
-
-
+.label.lime{
+  background-color: #aac516;
+}

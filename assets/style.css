@@ -46,7 +46,7 @@ main{
 
 main button{
   padding: 7px 10px;
-  margin: 1vh 0 1vh 3px;
+  margin: 1vh 3px 1vh 0;
   border-radius: 5px;
   font-size: 11px;
   font-weight: bold;
@@ -67,3 +67,15 @@ main button{
 main hr{
   border: 1px solid #f6f8f9;
 }
+
+main h2{
+  margin-top: 3vh;
+  font-stretch:extra-expanded;
+}
+
+main h2::before{
+  font-size: 1.3rem;
+  content: "\1F783";
+  margin-right: 5px;
+}
+

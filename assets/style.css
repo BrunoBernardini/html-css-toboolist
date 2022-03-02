@@ -36,5 +36,19 @@ main{
   width: 60vw;
   height: 300px;
   margin: 5vh auto;
+  border-radius: 10px;
   background-color: red;
+}
+
+.content{
+  margin-left: 5%;
+}
+
+main button{
+  padding: 5px 10px;
+  margin: 1vh 0 1vh 3px;
+}
+
+main hr{
+  border-color: #f6f8f9;
 }

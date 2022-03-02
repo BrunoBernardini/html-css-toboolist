@@ -23,7 +23,7 @@ header{
 header h1{
   font-size: 2.5rem;
   display: inline-block;
-  vertical-align:top;
+  vertical-align: top;
 }
 
 header img{
@@ -69,13 +69,58 @@ main hr{
 }
 
 main h2{
-  margin-top: 3vh;
-  font-stretch:extra-expanded;
+  margin: 3vh 0 2vh 0;
 }
 
 main h2::before{
-  font-size: 1.3rem;
+  font-size: 20px;
   content: "\1F783";
   margin-right: 5px;
 }
+
+.todo-line{
+  font-size: 18px;
+  margin: 1vh 0 2.5vh 0;
+}
+
+.checklist{
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.checked{
+  border: 1px solid #7fcebd;
+  color: #7fcebd;
+}
+
+.crossed{
+  border: 1px solid #eb4b41;
+  color: #eb4b41;
+}
+
+.checked::after{
+  content: '\2714';
+}
+
+.crossed::after{
+  content: '\2716';
+}
+
+.checked::after, .crossed::after{
+  font-size: 12px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+
 
